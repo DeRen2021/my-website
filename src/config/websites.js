@@ -5,7 +5,7 @@ export const websiteConfig = {
     {
       title: "AI Chatbot",
       description: "Engage with an intelligent conversational AI",
-      link: process.env.REACT_APP_CHATBOT_URL || "/other-website/chat.html",
+      link: process.env.REACT_APP_CHATBOT_URL || "https://chat.deren.life",
       icon: MessageSquare,
       status: "Live"
     },
@@ -42,14 +42,14 @@ export const websiteConfig = {
       description: "Visit the standard version of my personal website",
       link: process.env.REACT_APP_PERSONAL_URL || "/other-website/index.html",
       icon: Globe,
-      status: "Live"
+      status: "Down"
     },
     {
       title: "Code Drops(deprecated use cursor)",
       description: "Combine your orginal code with result from llm(when they omit things)",
       link: process.env.REACT_APP_CODE_DROPS_URL || "/other-website/code_combine.html",
       icon: Code,
-      status: "Live"
+      status: "Down"
     }
   ]
 }; 
