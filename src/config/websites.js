@@ -10,13 +10,6 @@ export const websiteConfig = {
       status: "Live"
     },
     {
-      title: "Online Poker",
-      description: "Test your skills in online poker matches",
-      link: process.env.REACT_APP_POKER_URL || "https://your-poker-url.com",
-      icon: CreditCard,
-      status: "Under Development"
-    },
-    {
       title: "News Aggregator",
       description: "A news aggregator that uses OpenAI API and Google search API to generate news articles",
       link: process.env.REACT_APP_NEWS_URL || "https://news.deren.life",
@@ -24,11 +17,11 @@ export const websiteConfig = {
       status: "Live"
     },
     {
-      title: "Cocktail tutorial",
-      description: "A cocktail website that host on azure and data stored in aws, intergate wtih a postgresql database",
-      link: process.env.REACT_APP_COCKTAIL_URL || "https://drink.deren.life",
+      title: "IOS Application",
+      description: "Explore my ios cocktail application",
+      link: process.env.REACT_APP_GITHUB_URL || "https://apps.apple.com/us/app/cocktails3702/id6743032659?l=zh-Hans-CN",
       icon: Wine,
-      status: "down due to budget"
+      status: "Live"
     },
     {
       title: "GitHub Profile",
@@ -37,6 +30,22 @@ export const websiteConfig = {
       icon: Github,
       status: "Live"
     },
+    {
+      title: "Online Poker",
+      description: "Test your skills in online poker matches",
+      link: process.env.REACT_APP_POKER_URL || "https://your-poker-url.com",
+      icon: CreditCard,
+      status: "Under Development"
+    },
+
+    {
+      title: "Cocktail tutorial",
+      description: "A cocktail website that host on azure and data stored in aws, intergate wtih a postgresql database",
+      link: process.env.REACT_APP_COCKTAIL_URL || "https://drink.deren.life",
+      icon: Wine,
+      status: "down due to budget"
+    },
+    
     {
       title: "Personal Website",
       description: "Visit the standard version of my personal website",
